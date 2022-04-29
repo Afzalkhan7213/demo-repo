@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float & align</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+            .box{
+            background:#f4f4f4;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 15px;
+
+            
+        }
+        .container {
+            /*container use max width*/
+            max-width: 900px;
+            /* margin makes text go to middle*/
+            margin: auto;
+
+        }
+        /* space between float*/
+        .clr{
+            clear: both;
+        }
+
+        .box p {
+            /* text align */
+            text-align: left;
+            text-align: right;
+            text-align: center;
+            text-align: justify;
+        }
+
+        #box-2 {
+            float: left;
+            width: 68%;
+        }
+        #box-3{
+            float: right;
+            width: 30%;
+        }
+
+         
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+    <!--emit you can give it a class & id on same line -->
+ <div id="box-1" class="box"> 
+      <h3>heading</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quo ea eaque nemo a, pariatur ipsum 
+          suscipit perferendis nisi fuga 
+          aperiam minima magni similique possimus odit quam accusamus necessitatibus nam.</p>
+  </div> <div id="box-2" class="box"> 
+     <h3>heading</h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quo ea eaque nemo a, pariatur ipsum 
+         suscipit perferendis nisi fuga 
+         aperiam minima magni similique possimus odit quam accusamus necessitatibus nam.</p>
+ </div>
+ <div id="box-3" class="box"> 
+     <h3>heading</h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quo ea eaque nemo a, pariatur ipsum 
+         suscipit perferendis nisi fuga 
+         aperiam minima magni similique possimus odit quam accusamus necessitatibus nam.</p>
+ </div>
+    <div class="clr"></div>
+ <div id="box-4" class="box"> 
+    <h3>heading</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quo ea eaque nemo a, pariatur ipsum 
+        suscipit perferendis nisi fuga 
+        aperiam minima magni similique possimus odit quam accusamus necessitatibus nam.</p>
+</div>
+
+
+
+    
+   
+    
+</body>
+</html>
